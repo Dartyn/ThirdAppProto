@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="top|center"
     android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
@@ -12,8 +12,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:orientation="vertical">
 
         <TextView
@@ -35,15 +35,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="0"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Change" />
     </LinearLayout>
 
 </LinearLayout>
